@@ -87,16 +87,7 @@ final class WPGP_Settings {
             'connection_id'    => '',
             'repo'             => '',
             'branch'           => 'main',
-            'exclude_patterns' => implode(
-                "\n",
-                [
-                    'wp-content/uploads/*',
-                    '*.log',
-                    '*.cache',
-                    '.git/*',
-                    'node_modules/*',
-                ]
-            ),
+            'exclude_patterns' => '',
             'hmac_secret'      => '',
             'github_pat'       => '',
             'github_username'  => '',

@@ -128,8 +128,10 @@ final class WPGP_Push_Service {
         WPGP_Settings::update(['last_push_at' => gmdate('c')]);
 
         wp_send_json_success([
-            'commit_sha'   => $result['commit_sha'],
-            'files_pushed' => $result['files_pushed'],
+            'commit_sha'    => $result['commit_sha'],
+            'files_pushed'  => $result['files_pushed'],
+            'text_inline'   => $result['text_inline'] ?? 0,
+            'blobs_created' => $result['blobs_created'] ?? 0,
         ]);
     }
 
