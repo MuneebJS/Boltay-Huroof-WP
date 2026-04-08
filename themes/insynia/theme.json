@@ -8,13 +8,6 @@
 			"area": "uncategorized"
 		}
 	],
-	"templates": [
-		{
-			"name": "team",
-			"title": "Team",
-			"postTypes": [ "page" ]
-		}
-	],
 	"settings": {
 		"layout": {
 			"contentSize": "72rem",
