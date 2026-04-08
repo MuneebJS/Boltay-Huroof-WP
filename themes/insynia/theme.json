@@ -1,0 +1,61 @@
+{
+	"$schema": "https://schemas.wp.org/wp/6.7/theme.json",
+	"version": 3,
+	"templateParts": [
+		{
+			"name": "landing-content",
+			"title": "Landing content",
+			"area": "uncategorized"
+		}
+	],
+	"settings": {
+		"layout": {
+			"contentSize": "72rem",
+			"wideSize": "80rem"
+		},
+		"color": {
+			"palette": [
+				{
+					"color": "#070b14",
+					"name": "Insynia Ink",
+					"slug": "insynia-ink"
+				},
+				{
+					"color": "#0c1222",
+					"name": "Insynia Deep",
+					"slug": "insynia-deep"
+				},
+				{
+					"color": "#111827",
+					"name": "Insynia Panel",
+					"slug": "insynia-panel"
+				},
+				{
+					"color": "#6366f1",
+					"name": "Insynia Primary",
+					"slug": "insynia-primary"
+				},
+				{
+					"color": "#818cf8",
+					"name": "Insynia Primary Soft",
+					"slug": "insynia-primary-soft"
+				},
+				{
+					"color": "#22d3ee",
+					"name": "Insynia Cyan",
+					"slug": "insynia-cyan"
+				},
+				{
+					"color": "#94a3b8",
+					"name": "Insynia Muted",
+					"slug": "insynia-muted"
+				},
+				{
+					"color": "#f8fafc",
+					"name": "Insynia Snow",
+					"slug": "insynia-snow"
+				}
+			]
+		}
+	}
+}
