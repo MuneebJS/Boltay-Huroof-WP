@@ -29,6 +29,16 @@ add_action(
 			array( 'insynia-parent', 'insynia-fonts' ),
 			wp_get_theme()->get( 'Version' )
 		);
+
+		if ( is_front_page() ) {
+			wp_enqueue_script(
+				'insynia-front-page-cleanup',
+				get_stylesheet_directory_uri() . '/assets/js/front-page-cleanup.js',
+				array(),
+				wp_get_theme()->get( 'Version' ),
+				true
+			);
+		}
 	},
 	20
 );
